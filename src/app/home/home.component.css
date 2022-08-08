@@ -1,0 +1,35 @@
+
+#slide2,
+#slide3 {
+  width: 100%;
+  height: auto;
+}
+
+
+#nomeproduto {
+  border: medium solid white;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+#sobre {
+  display: flex;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+#central {
+  width: 100%;
+  height: auto;
+  background-color: #023e8e;
+  text-align: justify;
+  justify-content: center;
+}
+
+hr {
+  color: white;
+}
+#topico {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
