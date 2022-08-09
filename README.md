@@ -4,5 +4,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Developer 
 
-This project is the angular version of the repository "E-commerce" in mu GitHub. It was made as a task for the full-stack developer formation in Senai-SP.
+This project is the angular version of the repository "E-commerce" in my GitHub. It was made as a task for the full-stack developer formation in Senai-SP.
 
