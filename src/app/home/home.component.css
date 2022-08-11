@@ -36,3 +36,10 @@ hr {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+form {
+  background-color: #0258c8;
+}
+input {
+  font-family: "Laila", sans-serif;
+  height: 20px;
+}
