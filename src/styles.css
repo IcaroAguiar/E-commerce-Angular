@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Laila:wght@700&family=Poppins:wght@100;300;400;500&display=swap");
 *{font-family: "Laila", sans-serif;}
-html, body { height: 100%;
+html, body { height: 100%; 
+  background-color: #2e2c2c ;
 }
 
 p,
@@ -16,3 +17,5 @@ a:hover {
     box-shadow: 0 0 100px #0000;
     transition: 0.5s;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

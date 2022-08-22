@@ -1,0 +1,24 @@
+<form method="get">
+  <div class="container d-flex flex-column align-items-center w-25">
+    <label for="user" class="form-label d-none d-lg-block">
+      Insira o nome de usuário</label
+    >
+    <label for="user" class="form-label d-lg-none">Insira o usuario</label>
+    <input type="text" class="form-control" id="user" />
+  </div>
+  <div class="container d-flex flex-column align-items-center w-25">
+    <label for="senha" class="form-label"> Insira sua senha</label>
+    <input type="password" class="form-control" id="senha" />
+  </div>
+  <div class="container d-flex flex-column mt-4 w-25">
+    <button
+      type="submit"
+      class="btn btn-outline-light pt-1 mx-0"
+    >
+      Entrar
+    </button>
+    <button class="btn btn-outline-light mx-0" (click)="cadastrar()">
+      Cadastre-se
+    </button>
+  </div>
+</form>

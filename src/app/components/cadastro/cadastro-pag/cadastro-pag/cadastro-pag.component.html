@@ -1,0 +1,57 @@
+<form>
+
+
+  <div id='container' class="container d-flex flex-column align-items-center mt-3 w-25">
+    <label for="user" class="form-label d-none d-lg-block"> Novo usuário</label>
+
+    <label for="user" class="form-label d-lg-none ">Novo usuario</label>
+    <input
+      type="text"
+      class="form-control"
+      matInput
+      [(ngModel)]="cadastro.usuario"
+      name="usuario"
+      placeholder="Usuario..."
+    />
+  </div>
+
+  <div class="container d-flex flex-column align-items-center w-25">
+    <label for="senha" class="form-label"> Nova senha</label>
+    <input
+      type="password"
+      class="form-control"
+      matInput
+      [(ngModel)]="cadastro.senha"
+      name="senha"
+      placeholder="Senha..."
+    />
+  </div>
+  <div class="container d-flex flex-column mt-3 w-25">
+    <button
+      type="submit"
+      class="btn btn-outline-light pt-1 mx-0 "
+      (click)="createCadastro()"
+    >
+      Cadastrar
+    </button>
+  </div>
+  <div class="container d-flex flex-column w-25">
+    <button
+      type="submit"
+      class="btn btn-outline-light pt-1 mx-0"
+      (click)="cancelarCadastro()"
+    >
+      Cancelar
+    </button>
+  </div>
+  <div class="container d-flex flex-column w-25">
+      <button
+        type="submit"
+        class="btn btn-outline-light pt-1 mx-0 "
+        (click)="tabelaCadastro()"
+      >
+        Todos os cadastros
+      </button>
+    </div>
+
+</form>
