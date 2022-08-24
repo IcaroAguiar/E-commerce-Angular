@@ -18,7 +18,9 @@ export class CadastroReadComponent implements OnInit {
   ngOnInit(): void {
     this.cadastroService.read().subscribe(cadastros => {
       this.cadastros = cadastros
+      this.cadastroService.showMessage('Tabela Gerada');
     })
+
   }
 
 }

@@ -25,6 +25,7 @@ export class CadastroDeleteComponent implements OnInit {
   }
 
   deleteCadastro(): void{
+    
     this.cadastroService.deleteCadastro(this.cadastro.id!).subscribe(() => {
       this.router.navigate(['login/cadastro/tabela'])
       this.cadastroService.showMessage('Cadastro Deletado')
@@ -33,7 +34,5 @@ export class CadastroDeleteComponent implements OnInit {
   cancelarCadastro(): void{
     this.router.navigate(['login/cadastro/tabela'])
   }
-//   tabelasCadastro(): void{
-//   this.router.navigate(['/cadastro/tabela'])
-// }
+
 }

@@ -7,6 +7,7 @@ import { CadastroTabelaComponent } from './components/cadastro/cadastro-tabela/c
 import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/cadastro-update/cadastro-update.component';
 import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/cadastro-delete/cadastro-delete.component';
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'login/cadastro/tabela', component: CadastroTabelaComponent },
   { path: 'login/cadastro/tabela/update/:id', component: CadastroUpdateComponent },
   { path: 'login/cadastro/tabela/delete/:id', component: CadastroDeleteComponent },
+
 ];
 
 @NgModule({

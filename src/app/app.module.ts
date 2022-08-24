@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { CadastroComponent } from './components/cadastro/cadastro-pag/cadastro-pag/cadastro-pag.component';
 
+
+
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -27,6 +29,7 @@ import { CadastroTabelaComponent } from './components/cadastro/cadastro-tabela/c
 import { CadastroReadComponent } from './components/cadastro/cadastro-read/cadastro-read/cadastro-read.component';
 import { CadastroUpdateComponent } from './components/cadastro/cadastro-update/cadastro-update/cadastro-update.component';
 import { CadastroDeleteComponent } from './components/cadastro/cadastro-delete/cadastro-delete/cadastro-delete.component';
+
 
 
 

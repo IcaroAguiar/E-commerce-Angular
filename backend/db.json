@@ -3,7 +3,7 @@
     {
       "id": 1,
       "usuario": "Ícaro Aguiar",
-      "senha": "123"
+      "senha": "aguiar"
     },
     {
       "usuario": "Cristiane Aguiar",
@@ -14,6 +14,11 @@
       "usuario": "Rodrigo Santos ",
       "senha": "147852",
       "id": 3
+    },
+    {
+      "usuario": "Luiz Ag",
+      "senha": "123456",
+      "id": 4
     }
   ]
 }

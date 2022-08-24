@@ -34,10 +34,10 @@ export class CadastroUpdateComponent implements OnInit {
   }
 
   cancelarCadastro(): void{
-    this.router.navigate(['/cadastro/tabela'])
+    this.router.navigate(['/login/cadastro'])
   }
   tabelasCadastro(): void{
-  this.router.navigate(['/cadastro/tabela'])
+  this.router.navigate(['/login/cadastro/tabela'])
 }
 
 }
