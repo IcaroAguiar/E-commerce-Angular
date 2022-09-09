@@ -10,6 +10,7 @@
       class="form-control"
       matInput
       [(ngModel)]="cadastro.usuario"
+      id="usuario"
       name="usuario"
       placeholder="Usuario..."
     />
@@ -22,6 +23,7 @@
       class="form-control"
       matInput
       [(ngModel)]="cadastro.senha"
+      id="senha"
       name="senha"
       placeholder="Senha..."
     />
@@ -30,6 +32,7 @@
     <button
       type="submit"
       class="btn btn-outline-light pt-1 mx-0 "
+      id="cadastrar"
       (click)="createCadastro()"
     >
       Cadastrar
